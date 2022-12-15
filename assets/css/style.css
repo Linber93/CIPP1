@@ -11,19 +11,20 @@ body {
 }
 
 #portrait {
-    width: 300px;
-    overflow: hidden;
+    width: 200px;
     margin: 10px;
-    border-radius: 5px
-}
-
-#name-title h2 {
-    font-size: 16px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
     
 }
 
+#name-title h2 {
+    font-size: 14px;
+}
+
 .personal-info {
-    margin: 20px;
+    margin: 10px;
     align-self: flex-end;
 }
 
@@ -31,4 +32,22 @@ body {
     font-size: 12px;
 }
 
+.menu {
+    background-color: #aeb8c494;
+    margin: 0;
+    padding: 0 5px 0 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+}
 
+.menu li {
+    list-style-type: none;
+    padding-right: 10px;
+    margin: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #214358;
+}
