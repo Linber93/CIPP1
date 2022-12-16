@@ -71,3 +71,23 @@ body {
 #active {
     text-decoration: underline;
 }
+
+#hero-image {
+    height: 20vh;
+    width: 100%;
+    background: url('../media/images/winter-landscape.jpg') no-repeat center center;
+    
+}
+
+#cover-text {
+    font-size: 8px;
+    text-transform: uppercase;
+    color: #aeb8c494;
+    background-color: rgba(43, 42, 42, 0.8);
+
+    position: absolute;
+    padding: 5px 20px 5px 20px;
+    top: 30vh;
+    right: 15px;
+    
+}
