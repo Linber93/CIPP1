@@ -6,8 +6,9 @@ body {
 
 .introduction {
     background-color: #214358;
-    color: #9CA6B8;
+    color: #b9c6df;
     display: flex;
+    
 }
 
 #portrait {
@@ -26,10 +27,19 @@ body {
 .personal-info {
     margin: 10px;
     align-self: flex-end;
+    padding-left: 30px;
 }
 
 .personal-info p {
     font-size: 12px;
+}
+
+.personal-info li {
+    list-style-type: none;
+}
+
+.personal-info i {
+    padding: 5px;
 }
 
 .menu {
@@ -50,4 +60,14 @@ body {
 .menu a {
     text-decoration: none;
     color: #214358;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    
+}
+
+#active {
+    text-decoration: underline;
 }
