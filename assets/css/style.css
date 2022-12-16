@@ -8,7 +8,6 @@ body {
     background-color: #214358;
     color: #b9c6df;
     display: flex;
-    
 }
 
 #portrait {
@@ -27,7 +26,7 @@ body {
 .personal-info {
     margin: 10px;
     align-self: flex-end;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .personal-info p {
@@ -41,6 +40,7 @@ body {
 .personal-info i {
     padding: 5px;
 }
+
 
 .menu {
     background-color: #aeb8c494;
@@ -87,7 +87,7 @@ body {
 
     position: absolute;
     padding: 5px 20px 5px 20px;
-    top: 30vh;
     right: 15px;
+    top: 30%
     
 }
