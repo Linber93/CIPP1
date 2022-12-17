@@ -85,9 +85,9 @@ body {
     color: #aeb8c494;
     background-color: rgba(43, 42, 42, 0.8);
 
-    position: absolute;
+    position: fixed;
     padding: 5px 20px 5px 20px;
-    right: 15px;
-    top: 30%
-    
+    right: 40px;
+    top: 450px;
+    margin-left: 40px;
 }
