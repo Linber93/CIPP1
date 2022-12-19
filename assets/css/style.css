@@ -12,7 +12,7 @@ body {
 
 #portrait {
     width: 200px;
-    margin: 10px;
+    margin: 35px 5px;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -97,19 +97,27 @@ position: relative;
 .about {
     margin: 25px;
     border-bottom: 1px solid #214358;
+    padding-bottom: 30px;
 }
 
 .skill-type {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 0 70% 0 30%;
+    height: 400px;
     line-height: 50px;
     padding-bottom: 50px;
+    position: relative;
+}
+
+.skill-type h1 {
+    text-align: center;
 }
 
 #skill{
     display: flex;
+    position: absolute;
+    left: 30%;
 }
 
 footer {
@@ -120,16 +128,32 @@ footer {
     height: 100px;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 60px;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 footer a {
     text-decoration: none;
     color: #b9c6df;
-    font-weight: light;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 a > i {
     padding: 10%;
     font-size: 20px;
+    display: flex;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .about, .skill-type {
+        width: inherit;
+        display: flex;
+        flex-direction: row;
+    }
 }
