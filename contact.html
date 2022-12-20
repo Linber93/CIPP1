@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Resume for the greatest student of all time">
+    <meta name="keywords" content="Resume, Linus Berger">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Linus Berger Resume</title>
+</head>
+<body>
+    <header>
+        <div class="introduction">
+            <div>
+                <img id="portrait" src="assets/media/images/linus_berger.jpg" alt="Linus Berger smiling">
+            </div>
+            <div class="personal-info">
+                <div id="name-title">
+                    <h1>Linus Berger</h1>
+                    <hr>
+                    <h2>Full Stack Software Development Student</h2>
+                </div>
+                <div id="contact">
+                    <ul>
+                        <li id="email"><i class="fa-solid fa-envelope"></i> linus@nybyn.se</li>
+                        <li id="phone"><i class="fa-solid fa-phone"></i> +46 73-740 45 14</li>
+                        <li id="adress"><i class="fa-solid fa-house"></i> Gullregnsgatan 15A, 802 82 Gävle, Sweden</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <nav>
+                <ul class="menu">
+                    <li><a  href="index.html">Home</a></li>
+                    <li><a href="work_history.html">Work History</a></li>
+                    <li><a id="active" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+    <section>
+        <form action="https://formdump.codeinstitute.net/" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" >
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="user_email">
+            <label for="message">Message:</label>
+            <input type="text" id="message" name="message">
+        </form>
+    </section>
+    <section id="hero-outer">
+        <div id="hero-image"></div>
+        <div id="cover-text">
+            <h2>Success is not final; failure is not fatal: It is the courage to continue that counts."<br><br>— Winston S. Churchill</h2>
+        </div> 
+    </section>
+    <footer>
+        <div class="download-cv">
+            <!--found information on how to create "download links" on w3schools.com-->
+            <a href="assets/media/files/Sample_CV" download>Download CV in a<br>printable format<br><i class="fa-solid fa-download"></i></a>
+        </div>
+        <div class="linkedin">
+            <a href="https://www.linkedin.com/" target="_blank" aria-label="Opens in a new tab">Check me out on<br>LinkedIn<br><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="github">
+            <a href="https://github.com/" target="_blank" aria-label="Opens in a new tab">Check me out on<br>Github<br><i class="fa-brands fa-github"></i></a>
+        </div>
+        
+    </footer>
+    <script src="https://kit.fontawesome.com/5e671db015.js" crossorigin="anonymous"></script>
+</body>
+</html>
