@@ -151,6 +151,22 @@ a > i {
     text-align: center;
 }
 
+.small-text {
+    font-weight: normal;
+}
+
+.non-proff-achievments span {
+    line-height: 30px;
+}
+
+.employments span {
+    line-height: 30px;
+}
+
+
+
+
+
 @media screen and (min-width: 800px) {
     .main-content {
         width: 100%;
