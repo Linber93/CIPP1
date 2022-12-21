@@ -176,12 +176,15 @@ a > i {
     max-width: 600px;
     margin: auto;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
-
-
-
-
+.form-section {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
 @media screen and (min-width: 800px) {
     .main-content {
         width: 100%;
@@ -230,7 +233,12 @@ a > i {
 
 @media only screen and (orientation: landscape){
     body {
-        flex-direction: column;
+        flex-direction: row;
     }
 }
 
+@media only screen and (orientation: portrait){
+    body {
+        flex-direction: column;
+    }
+}
