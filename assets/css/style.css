@@ -8,6 +8,7 @@ body {
     background-color: #214358;
     color: #b9c6df;
     display: flex;
+    flex-wrap: wrap;
 }
 
 #portrait {
@@ -161,6 +162,20 @@ a > i {
 
 .employments span {
     line-height: 30px;
+}
+
+#contact-image {
+    height: 600px;
+    width: 100%;
+    background:#aeb8c494 url(../media/images/Drottningholm_fo.png) no-repeat center center; 
+}
+
+#contact-form {
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.8);
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
 }
 
 
