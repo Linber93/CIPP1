@@ -185,6 +185,51 @@ a > i {
     display: flex;
     justify-content: center;
 }
+
+#form-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+#send-button {
+    display: flex;
+    width: 60px;
+    background-color: #214358;
+    color: #b9c6df;
+    border-style: outset;
+    border-color: #4790bd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+#send-button:hover {
+    background-color: #b9c6df;
+    color: #214358;
+}
+
+#reset-button {
+    width: 60px;
+    display: flex;
+    margin-right: 20px;
+    background-color: #DB1F48;
+    color: #b9c6df;
+    border-style: outset;
+    border-color: #ca9da7;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+#reset-button:hover {
+    background-color: #b9c6df;
+    color: #DB1F48;
+}
+
+
+
 @media screen and (min-width: 800px) {
     .main-content {
         width: 100%;
