@@ -12,11 +12,13 @@ body {
 }
 
 #portrait {
-    width: 200px;
-    margin: 35px 5px;
+    width: 100%;
+    height: 150px;
+    margin: 50px 5px;
     border-radius: 5px;
     display: flex;
     align-items: center;
+
 }
 
 #name-title h2 {
@@ -214,8 +216,8 @@ a > i {
     width: 60px;
     display: flex;
     margin-right: 20px;
-    background-color: #DB1F48;
-    color: #b9c6df;
+    background-color: #8b152e;
+    color: #c9ced6;
     border-style: outset;
     border-color: #ca9da7;
     border-radius: 10px;
@@ -224,8 +226,25 @@ a > i {
 }
 
 #reset-button:hover {
-    background-color: #b9c6df;
-    color: #DB1F48;
+    background-color: #c9ced6;
+    color: #8b152e;
+}
+
+.non-proff-achievments, .employments {
+    border: 2px ridge #214358;
+    margin: 20px;
+}
+
+.non-proff-achievments, .employments > h3 {
+    padding-left: 30px;
+}
+
+@media screen and (max-width:650px){
+    #portrait {
+        width: 100%;
+        height: 200px;
+        margin: 30px 40px;
+    }
 }
 
 
@@ -233,10 +252,11 @@ a > i {
 @media screen and (min-width: 800px) {
     .main-content {
         width: 100%;
-        height: 600px;
+        min-height: 600px;
         display: flex;
         box-sizing: border-box;
         flex-direction: row-reverse;
+        justify-content: center;
     }
 
     .about {
@@ -255,15 +275,30 @@ a > i {
     .skill-type {
         margin-right: 30px;
         box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
         width: 50%;
+        height: 100%;
         text-align: center;
         margin: inherit;
+        display: flex;
+        flex-direction: column;
         align-content: flex-start;
-        height: 100%;
         justify-content: center;
+        padding: 100px 20px 0 20px
     }
+
+    .employments {
+        max-width: 50%;
+    }
+
+    .non-proff-achievments {
+        max-width: 50%;
+    }
+
+    details > p {
+        max-width: 700px;
+    }
+
+
 }
 
 @media screen and (min-width: 1200px){
