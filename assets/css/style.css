@@ -1,8 +1,19 @@
+/* general styling */
+
+html {
+    background-color: #fafafa;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     background-color: #B3BAC7;
+    max-width: 1800px;
+    margin: 0 auto;
+    line-height: 1.5rem;
 }
+
+/* header styling */
 
 .introduction {
     background-color: #214358;
@@ -23,7 +34,7 @@ body {
 }
 
 #name-title h2 {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .personal-info {
@@ -33,7 +44,7 @@ body {
 }
 
 .personal-info p {
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .personal-info li {
@@ -44,14 +55,17 @@ body {
     padding: 5px;
 }
 
+header > * {
+    padding-left: 50px;
+}
+
 .menu {
-    background-color: #fafafa;
     margin: 0;
     padding: 0 5px 0 5px;
     text-decoration: none;
     display: flex;
     justify-content: flex-start;
-    border-bottom: 1px outset #214358;
+
 }
 
 .menu li {
@@ -64,16 +78,23 @@ body {
     text-decoration: none;
     color: #214358;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 .menu a:hover {
     text-decoration: underline;
 }
 
+.navigation {
+    background-color: #fafafa;
+    border-bottom: 1px outset #214358;
+}
+
 #active {
     text-decoration: underline;
 }
+
+/* hero image styling */
 
 #hero-image {
     height: 300px;
@@ -82,14 +103,14 @@ body {
 }
 
 #hero-outer {
-width: 100%;
-height: 300px;
-overflow: hidden;
-position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
 }
 
 #cover-text {
-    font-size: 8px;
+    font-size: 0.5rem;
     text-transform: uppercase;
     color: #aeb8c494;
     background-color: rgba(43, 42, 42, 0.8);
@@ -99,6 +120,8 @@ position: relative;
     bottom: 20px;
     margin: 0 30px 20px 30px;
 }
+
+/* home page content styling */
 
 .about {
     padding: 20px;
@@ -156,9 +179,16 @@ footer a:hover {
 
 a > i {
     padding: 10%;
-    font-size: 20px;
+    font-size: 1.25rem;
     display: flex;
     text-align: center;
+}
+
+/* work history styling */
+
+.main-content-work-history {
+    display: flex;
+    flex-direction: column;
 }
 
 .small-text {
@@ -176,7 +206,8 @@ a > i {
 #contact-image {
     height: 600px;
     width: 100%;
-    background:#aeb8c494 url(../media/images/bg-contact.webp) no-repeat center center; 
+    background:#aeb8c494 url(../media/images/bg-contact.webp) no-repeat center center;
+    margin-bottom: 150px;
 }
 
 #contact-form {
@@ -184,6 +215,7 @@ a > i {
     background-color: rgba(60, 60, 60, 0.8);
     max-width: 600px;
     margin: auto;
+    margin-top: 20px;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -199,12 +231,13 @@ a > i {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    margin-top: 20px;
     
 }
 
 #send-button {
     display: flex;
-    width: 60px;
+    width: 5rem;
     background-color: #214358;
     color: #b9c6df;
     border-style: outset;
@@ -220,7 +253,7 @@ a > i {
 }
 
 #reset-button {
-    width: 60px;
+    width: 5rem;
     display: flex;
     margin-right: 20px;
     background-color: #8b152e;
@@ -237,11 +270,32 @@ a > i {
     color: #8b152e;
 }
 
+.form-section > * {
+    font-size: 1.15rem;
+}
+
+.form-section label {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form-section input {
+    padding: 7px;
+    font-size: 1.25rem;
+}
+
+.form-section textarea {
+    padding: 7px;
+    font-size: 1.25rem;
+}
+
 .non-proff-achievments, .employments {
     border: 2px ridge #214358;
-    margin: 20px 20px 20px 20px;
+    margin: 20px auto;
     background-color: #fafafa;
     box-shadow: 0 8px 18px 0 rgb(0 0 0 / 25%), 0 5px 15px 0 rgb(0 0 0 / 20%);
+    box-sizing: border-box;
 }
 
 .non-proff-achievments, .employments > h3 {
@@ -266,6 +320,13 @@ a > i {
         box-sizing: border-box;
         flex-direction: row-reverse;
         justify-content: center;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .main-content-work-history {
+        display: flex;
+        flex-direction: column;
     }
 
     .about {
@@ -291,11 +352,13 @@ a > i {
     }
 
     .employments {
-        max-width: 50%;
+        width: 80%;
+        box-sizing: border-box;
     }
 
     .non-proff-achievments {
-        max-width: 50%;
+        width: 80%;
+        box-sizing: border-box;
     }
 
     details > p {
