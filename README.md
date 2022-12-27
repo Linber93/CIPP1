@@ -21,15 +21,19 @@ In addition to my resume, you can also find links to online profiles and any add
     - an easy to use menu
     - clear indication of where you are located on the site
 
+![Navigation bar](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/nav_bar.PNG)
+
 - __Landing page__
     - a short description of who I am and what i do.
     - has a short self-estimation of my soft skills
     - includes a picture to make the page more interesting paired with a quote which describes my way to success
 
+![landing page top](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/landing_top.PNG)
+![landing page bottom](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/landing_bottom.PNG)
 
-    
+- __Footer__
+    - includes links to LinkedIn and GitHub
+    - link that allows the user to download a traditional version of the resume
 
+![Footer](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/footer.PNG)
 
-
-
-[def]: https://github.com/Linber93/CIPP1/blob/main/assets/media/images/introduction.PNG
