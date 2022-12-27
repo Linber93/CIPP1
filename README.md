@@ -8,6 +8,8 @@
 This is website to complement a traditional resume aswell as showcasing my current skills in HTML and CSS. In this resume you will find a detailed overview of my professional background, including my education, employment history, and key accomplishments.
 In addition to my resume, you can also find links to online profiles and any additional resources or materials that may be of interest.
 
+![website shown on different devices](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/preview.PNG)
+
 
 ### Features
 
@@ -32,8 +34,46 @@ In addition to my resume, you can also find links to online profiles and any add
 ![landing page bottom](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/landing_bottom.PNG)
 
 - __Footer__
-    - includes links to LinkedIn and GitHub
+    - includes links to LinkedIn and GitHub that will open in a new tab
     - link that allows the user to download a traditional version of the resume
 
 ![Footer](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/footer.PNG)
 
+- __Work History Page__
+    - includes a list of past employments with descriptions that drops down on request
+    - shows recieved awards and education
+
+![Awards and education](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/awards_education.PNG)
+![Work history](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/work_history.PNG)
+
+- __Contact page__
+    - this page will allow the user to send an me an massage. the user will be asked to submit their name and email adress along with their message before being able to send their message.
+
+![contact form](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/contact.PNG)
+
+## UX
+
+### The ideal user is:
+* English speaking
+* A recruiter working for a company
+
+### What the user should be looking for:
+* To learn more about Linus
+* A way to contact Linus 
+
+### Wireframes
+
+- [landing page](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/landing_wireframe.PNG)
+- [Work History](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/work_history_wireframe.PNG)
+- [Contact](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/contact_wireframe.PNG)
+
+
+
+## Testing
+
+### Features tested
+| Test subject | Description | Result |
+| ----------- | ----------- | ----------|
+| Links | Checked that all links were working and leading to the correct location| PASSED |
+| Devices | Checked that the pages were displating correctly on different device sizes | PASSED
+| downloadble content | Checked that downloadable files download properly | PASSED|

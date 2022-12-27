@@ -233,7 +233,7 @@ a > i {
 #contact-form {
     color: #fff;
     background-color: rgba(60, 60, 60, 0.8);
-    max-width: 600px;
+    max-width: 300px;
     margin: auto;
     margin-top: 20px;
     padding: 30px;
@@ -382,8 +382,9 @@ a > i {
     details > p {
         max-width: 700px;
     }
-
-
+    #contact-form {
+    max-width: 600px;
+    }
 }
 
 @media screen and (min-width: 1200px){
