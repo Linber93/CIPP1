@@ -63,7 +63,7 @@ In addition to my resume, you can also find links to online profiles and any add
 
 ### Wireframes
 
-- [landing page](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/landing_wireframe.PNG)
+- [Landing page](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/landing_wireframe.PNG)
 - [Work History](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/work_history_wireframe.PNG)
 - [Contact](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/contact_wireframe.PNG)
 
@@ -77,3 +77,35 @@ In addition to my resume, you can also find links to online profiles and any add
 | Links | Checked that all links were working and leading to the correct location| PASSED |
 | Devices | Checked that the pages were displating correctly on different device sizes | PASSED
 | downloadble content | Checked that downloadable files download properly | PASSED|
+| Submit and Reset button | Check that you will be promted to submit the required information before sending your message | PASSED
+### Validator testing
+
+- HTML
+  - Validated using the offical W3C Markup Validator. [W3C validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flinber93.github.io%2FCIPP1%2F)
+
+- CSS 
+  - validated using the official W3C Jigsaw CSS validation Service. [W3C CSS validator results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flinber93.github.io%2FCIPP1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### Lighthouse
+
+The site has been tested using Lighthouse in Chrome developer tool
+
+![Landing page test](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/landing_lighthouse.PNG)
+![Work history page test](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/work_history_lighthouse.PNG)
+![Contact page test](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/contact_lighthouse.PNG)
+
+### Browser compatibilty
+  - Tested on Microsoft Edge Version 108.0.1462.54
+  - Tested on Google Chrome Version 108.0.5359.125
+  - Tested on Firefox Version 108.0.1
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  1. In the GitHub repository, navigate to the Settings tab 
+  2. Navigate to the Pages tab
+  3. From the source section drop-down menu, select the Main Branch
+  4. Once the main branch has been selected, you might be required to wait for a few minutes after refreshing the browser there should be a ribbon on the page with a generated link with the published site 
+
+
+  [View deployed site here](https://linber93.github.io/CIPP1/)
