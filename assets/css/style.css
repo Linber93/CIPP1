@@ -158,6 +158,8 @@ header > * {
     justify-content: center;
 }
 
+/* footer */
+
 footer {
     text-decoration: none;
     background-color: #214358;
@@ -206,6 +208,20 @@ a > i {
 .employments span {
     line-height: 30px;
 }
+
+.non-proff-achievments, .employments {
+    border: 2px ridge #214358;
+    margin: 20px auto;
+    background-color: #fafafa;
+    box-shadow: 0 8px 18px 0 rgb(0 0 0 / 25%), 0 5px 15px 0 rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+}
+
+.non-proff-achievments, .employments > h3 {
+    padding-left: 30px;
+}
+
+/* contact page */
 
 #contact-image {
     height: 600px;
@@ -292,18 +308,6 @@ a > i {
 .form-section textarea {
     padding: 7px;
     font-size: 1.25rem;
-}
-
-.non-proff-achievments, .employments {
-    border: 2px ridge #214358;
-    margin: 20px auto;
-    background-color: #fafafa;
-    box-shadow: 0 8px 18px 0 rgb(0 0 0 / 25%), 0 5px 15px 0 rgb(0 0 0 / 20%);
-    box-sizing: border-box;
-}
-
-.non-proff-achievments, .employments > h3 {
-    padding-left: 30px;
 }
 
 @media screen and (max-width:650px){
