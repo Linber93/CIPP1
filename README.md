@@ -15,6 +15,8 @@ In addition to my resume, you can also find links to online profiles and any add
     - providing a portait of me.
     - giving to basic contact information including phone number, address and email.
 
+![introduction](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/introduction.PNG)
+
 - __Navigation__
     - an easy to use menu
     - clear indication of where you are located on the site
@@ -28,3 +30,6 @@ In addition to my resume, you can also find links to online profiles and any add
     
 
 
+
+
+[def]: https://github.com/Linber93/CIPP1/blob/main/assets/media/images/introduction.PNG
