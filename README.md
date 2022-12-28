@@ -109,3 +109,22 @@ The site has been tested using Lighthouse in Chrome developer tool
 
 
   [View deployed site here](https://linber93.github.io/CIPP1/)
+
+
+## External technologies used
+  - [W3C schools](https://www.w3schools.com/) - Used for information on how to create links to downloadable content. 
+  - [Font awesome](https://fontawesome.com/) - Utilized for icons.
+  - [Flexbox Froggy](https://flexboxfroggy.com/) - For learning how to use flex box.
+  - [Gitpod](https://www.gitpod.io/) - The developer used Gitpod to develop this site.
+
+
+## Credits
+### Content
+  - Content was created and assesed by Linus Berger.
+### Media
+  - The hero image was aquired from [Pexels.com](https://www.pexels.com/).
+  - Background image in the contact page was taken from Linus Bergers personal collection.
+### Acknowledgements
+  - I recieved some ideas on design and how to clean up my code from friends and relatives
+  - My fellow class mate Lizah Gyllingsten for bouncing ideas with and also troubleshooting problematic code
+  - My Mentor Brian Macharia for guiding me through this project and giving valuable tips and advice throughout the development process
