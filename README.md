@@ -85,11 +85,9 @@ In addition to my resume, you can also find links to online profiles and any add
 | Reset button | Check that all fields will empty properly when pressing the button | PASSED |
 ### Validator testing
 
-- HTML
- - Validated using the official W3C Markup Validator. [W3C validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flinber93.github.io%2FCIPP1%2F)
+- HTML - Validated using the official W3C Markup Validator. [W3C validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flinber93.github.io%2FCIPP1%2F)
 
-- CSS 
- - validated using the official W3C Jigsaw CSS validation Service. [W3C CSS validator results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flinber93.github.io%2FCIPP1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- CSS - validated using the official W3C Jigsaw CSS validation Service. [W3C CSS validator results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flinber93.github.io%2FCIPP1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Lighthouse
 
