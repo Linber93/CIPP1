@@ -14,34 +14,34 @@ In addition to my resume, you can also find links to online profiles and any add
 ### Features
 
 - __Introduction__
-    - providing a portrait of me.
-    - giving to basic contact information including phone number, address and email.
+ - providing a portrait of me.
+ - giving to basic contact information including phone number, address and email.
 
 ![Introduction](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/introduction.png)
 
 - __Navigation__
-    - an easy-to-use menu
-    - clear indication of where you are located on the site
+ - an easy-to-use menu
+ - clear indication of where you are located on the site
 
 ![Navigation bar](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/nav-bar.png)
 
 - __Landing page__
-    - a short description of who I am and what I do.
-    - has a short self-estimation of my soft skills
-    - includes a picture to make the page more interesting, paired with a quote which describes my way to success
+ - a short description of who I am and what I do.
+ - has a short self-estimation of my soft skills
+ - includes a picture to make the page more interesting, paired with a quote which describes my way to success
 
 ![landing page top](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/landing-top.png)
 ![landing page bottom](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/landing-bottom.png)
 
 - __Footer__
-    - includes links to LinkedIn and GitHub that will open in a new tab
-    - link that allows the user to download a traditional version of the resume
+ - includes links to LinkedIn and GitHub that will open in a new tab
+ - link that allows the user to download a traditional version of the resume
 
 ![Footer](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/footer.png)
 
 - __Work History Page__
-  - includes a list of past employments with descriptions that drops down on request
-  - shows received awards and education
+ - includes a list of past employments with descriptions that drops down on request
+ - shows received awards and education
 
 ![Awards and education](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/awards-education.png)
 ![Work history](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/work-history.png)
