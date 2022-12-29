@@ -311,6 +311,11 @@ a > i {
     font-size: 1.25rem;
 }
 
+#message {
+    font-size: inherit;
+    font-family: inherit;
+}
+
 @media screen and (max-width:650px){
     #portrait {
         width: 175px;
