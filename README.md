@@ -40,8 +40,8 @@ In addition to my resume, you can also find links to online profiles and any add
 ![Footer](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/footer.png)
 
 - __Work History Page__
-    - includes a list of past employments with descriptions that drops down on request
-    - shows received awards and education
+  - includes a list of past employments with descriptions that drops down on request
+  - shows received awards and education
 
 ![Awards and education](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/awards-education.png)
 ![Work history](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/work-history.png)
@@ -82,7 +82,7 @@ In addition to my resume, you can also find links to online profiles and any add
 | Form | Check that all required fields are populated | PASSED |
 | Form | Check that a valid email is provided | PASSED |
 | Submit button | Check that you will be prompted to submit the required information before sending your message | PASSED |
-| Reset button | 
+| Reset button | Check that all fields will empty properly when pressing the button | PASSED |
 ### Validator testing
 
 - HTML
@@ -100,21 +100,21 @@ The site has been tested using Lighthouse in Chrome developer tool
 ![Contact page test](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/contact-lighthouse.png)
 
 ### Browser compatibility
-  - Tested on Microsoft Edge Version 108.0.1462.54 on Windows 10 Home 21H2
-  - Tested on Google Chrome Version 108.0.5359.125 on Windows 10 Home 21H2
-  - Tested on Firefox Version 108.0.1 on Windows 10 Home 21H2
-  - Tested on Safari Version 16.2 on macOS Venture
+- Tested on Microsoft Edge Version 108.0.1462.54 on Windows 10 Home 21H2.
+- Tested on Google Chrome Version 108.0.5359.125 on Windows 10 Home 21H2.
+- Tested on Firefox Version 108.0.1 on Windows 10 Home 21H2.
+- Tested on Safari Version 16.2 on macOS Venture.
 
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  1. In the GitHub repository, navigate to the Settings tab 
-  2. Navigate to the Pages tab
-  3. From the source section drop-down menu, select the Main Branch
-  4. Once the main branch has been selected, you might be required to wait for a few minutes after refreshing the browser there should be a ribbon on the page with a generated link with the published site 
+  1. In the GitHub repository, navigate to the Settings tab 
+  2. Navigate to the Pages tab
+  3. From the source section drop-down menu, select the Main Branch
+  4. Once the main branch has been selected, you might be required to wait for a few minutes after refreshing the browser there should be a ribbon on the page with a generated link with the published site 
 
 
-  [View deployed site here](https://linber93.github.io/CIPP1/)
+ [View deployed site here](https://linber93.github.io/CIPP1/)
 
 ## Forking
 Forking the GitHub Repository
@@ -126,34 +126,34 @@ forking the GitHub Repository allows you to make a copy of the original reposito
   3. You should now have a new copy of the original repository in your own GitHub account.
 
 ## Cloning
-  Creating a local clone
-  1. Log into GitHub and locate the GitHub Repository.
-  2. There is a button named "<>code" a dropdown will provide you with an option to download it as a zip file or clone it directly using HTTPS but copying provided URL
-  3. Open Gitbash in your terminal
-  4. Navigate to the directory which you want the clone to be located
-  5. Type git clone, and then paste the URL you copied in step 2. For example, "git clone https://github.com/your-username/your-repository".
-  6. Press enter, and the repository will be cloned to your working directory.
+ Creating a local clone
+ 1. Log into GitHub and locate the GitHub Repository.
+ 2. There is a button named "<>code" a dropdown will provide you with an option to download it as a zip file or clone it directly using HTTPS but copying provided URL
+ 3. Open Gitbash in your terminal
+ 4. Navigate to the directory which you want the clone to be located
+ 5. Type git clone, and then paste the URL you copied in step 2. For example, "git clone https://github.com/your-username/your-repository".
+ 6. Press enter, and the repository will be cloned to your working directory.
 
 
 
 ## External technologies used
-  - [W3C schools](https://www.w3schools.com/) - Used for information on how to create links to downloadable content. 
-  - [FontAwesome](https://fontawesome.com/) - Utilized for icons for the contact information and for social media links
-  - [Flexbox Froggy](https://flexboxfroggy.com/) - For learning how to use flex box.
-  - [Gitpod](https://www.gitpod.io/) - The developer used Gitpod to develop this site.
-  - [Github](https://github.com/) - used to store and save my project during the development process.
-  - [Github Pages](https://pages.github.com/) - Used to host and publish the project.
-  - HTML5 - Mark-up language using semantic structure
-  - CCS3 - Cascading style sheets used to style.
+ - [W3C schools](https://www.w3schools.com/) - Used for information on how to create links to downloadable content. 
+ - [FontAwesome](https://fontawesome.com/) - Utilized for icons for the contact information and for social media links
+ - [Flexbox Froggy](https://flexboxfroggy.com/) - For learning how to use flex box.
+ - [Gitpod](https://www.gitpod.io/) - The developer used Gitpod to develop this site.
+ - [Github](https://github.com/) - used to store and save my project during the development process.
+ - [Github Pages](https://pages.github.com/) - Used to host and publish the project.
+ - HTML5 - Mark-up language using semantic structure
+ - CCS3 - Cascading style sheets used to style.
 
 
 ## Credits
 ### Content
-  - Content was created and assessed by Linus Berger.
+ - Content was created and assessed by Linus Berger.
 ### Media
-  - The hero image was acquired from [Pexels.com](https://www.pexels.com/).
-  - Background image in the contact page was taken from Linus Berger's personal collection.
+ - The hero image was acquired from [Pexels.com](https://www.pexels.com/).
+ - Background image in the contact page was taken from Linus Berger's personal collection.
 ### Acknowledgements
-  - I received some ideas on design and how to clean up my code from friends and relatives
-  - My fellow classmate Lizah Gyllingsten for bouncing ideas with and also troubleshooting problematic code
-  - My Mentor Brian Macharia for guiding me through this project and giving valuable tips and advice throughout the development process
+ - I received some ideas on design and how to clean up my code from friends and relatives
+ - My fellow classmate Lizah Gyllingsten for bouncing ideas with and also troubleshooting problematic code
+ - My Mentor Brian Macharia for guiding me through this project and giving valuable tips and advice throughout the development process
