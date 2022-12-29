@@ -29,7 +29,7 @@ header > * {
 }
 
 #portrait {
-    width: 100%;
+    width: 175px;
     height: 150px;
     border-radius: 6px;
     border-style: outset;

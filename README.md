@@ -8,7 +8,7 @@
 This is website to complement a traditional resume aswell as showcasing my current skills in HTML and CSS. In this resume you will find a detailed overview of my professional background, including my education, employment history, and key accomplishments.
 In addition to my resume, you can also find links to online profiles and any additional resources or materials that may be of interest.
 
-![website shown on different devices](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/preview.PNG)
+![website shown on different devices](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/preview.png)
 
 
 ### Features
@@ -17,39 +17,39 @@ In addition to my resume, you can also find links to online profiles and any add
     - providing a portait of me.
     - giving to basic contact information including phone number, address and email.
 
-![introduction](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/introduction.PNG)
+![introduction](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/introduction.png)
 
 - __Navigation__
     - an easy to use menu
     - clear indication of where you are located on the site
 
-![Navigation bar](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/nav_bar.PNG)
+![Navigation bar](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/nav-bar.png)
 
 - __Landing page__
     - a short description of who I am and what i do.
     - has a short self-estimation of my soft skills
     - includes a picture to make the page more interesting paired with a quote which describes my way to success
 
-![landing page top](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/landing_top.PNG)
-![landing page bottom](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/landing_bottom.PNG)
+![landing page top](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/landing-top.png)
+![landing page bottom](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/landing-bottom.png)
 
 - __Footer__
     - includes links to LinkedIn and GitHub that will open in a new tab
     - link that allows the user to download a traditional version of the resume
 
-![Footer](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/footer.PNG)
+![Footer](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/footer.png)
 
 - __Work History Page__
     - includes a list of past employments with descriptions that drops down on request
     - shows recieved awards and education
 
-![Awards and education](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/awards_education.PNG)
-![Work history](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/work_history.PNG)
+![Awards and education](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/awards-education.png)
+![Work history](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/work-history.png)
 
 - __Contact page__
     - this page will allow the user to send an me an massage. the user will be asked to submit their name and email adress along with their message before being able to send their message.
 
-![contact form](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/contact.PNG)
+![contact form](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/contact.png)
 
 ## UX
 
@@ -63,9 +63,9 @@ In addition to my resume, you can also find links to online profiles and any add
 
 ### Wireframes
 
-- [Landing page](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/landing_wireframe.PNG)
-- [Work History](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/work_history_wireframe.PNG)
-- [Contact](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/contact_wireframe.PNG)
+- [Landing page](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/landing-wireframe.png)
+- [Work History](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/work-history-wireframe.png)
+- [Contact](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/contact-wireframe.png)
 
 
 
@@ -90,9 +90,9 @@ In addition to my resume, you can also find links to online profiles and any add
 
 The site has been tested using Lighthouse in Chrome developer tool
 
-![Landing page test](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/landing_lighthouse.PNG)
-![Work history page test](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/work_history_lighthouse.PNG)
-![Contact page test](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/contact_lighthouse.PNG)
+![Landing page test](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/landing-lighthouse.png)
+![Work history page test](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/work-history-lighthouse.png)
+![Contact page test](https://github.com/Linber93/CIPP1/blob/main/assets/media/images/contact-lighthouse.png)
 
 ### Browser compatibilty
   - Tested on Microsoft Edge Version 108.0.1462.54
