@@ -312,7 +312,7 @@ a > i {
 
 @media screen and (max-width:650px){
     #portrait {
-        width: 100%;
+        width: 175px;
         height: 150px;
         margin: 30px 30px;
     }
