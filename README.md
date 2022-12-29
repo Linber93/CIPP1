@@ -119,11 +119,11 @@ The site has been tested using Lighthouse in Chrome developer tool
 ## Forking
 Forking the GitHub Repository
 
-forking the GitHub Repository allows you to make a copy of the original repository in your own GitHub account. This creates the possibility to view and make changes without the risk of affecting the original
+forking the GitHub Repository allows you to make a copy of the original repository in your own GitHub account. This creates the possibility to view and make changes without the risk of affecting the original.
 
-  1. Log into GitHub and locate the GitHub Repository.
-  2. At the top right you will see a "Fork" button.
-  3. You should now have a new copy of the original repository in your own GitHub account.
+1. Log into GitHub and locate the GitHub Repository.
+2. At the top right you will see a "Fork" button.
+3. You should now have a new copy of the original repository in your own GitHub account.
 
 ## Cloning
  Creating a local clone
