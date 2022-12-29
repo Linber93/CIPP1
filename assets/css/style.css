@@ -308,13 +308,11 @@ a > i {
 
 .form-section textarea {
     padding: 7px;
-    font-size: 1.25rem;
-}
-
-#message {
     font-size: inherit;
     font-family: inherit;
 }
+
+/* Rules for screen sizes 650px and smaller */
 
 @media screen and (max-width:650px){
     #portrait {
@@ -329,7 +327,7 @@ a > i {
     }
 }
 
-
+/* Rules for screen sizes 800px and bigger */
 
 @media screen and (min-width: 800px) {
     .main-content {
@@ -392,6 +390,7 @@ a > i {
     max-width: 600px;
     }
 }
+/* rules for screensizes 1200px and bigger */
 
 @media screen and (min-width: 1200px){
     #hero-outer {
