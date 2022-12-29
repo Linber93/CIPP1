@@ -239,6 +239,7 @@ a > i {
     padding: 30px;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 .form-section {
